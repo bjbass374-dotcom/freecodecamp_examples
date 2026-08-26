@@ -1,4 +1,5 @@
 # ENTORNO VIRTUAL (ignora TODAS las carpetas de venv)
+fcc_env/
 venv/
 .venv/
 env/
