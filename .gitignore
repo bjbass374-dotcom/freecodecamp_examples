@@ -1,0 +1,36 @@
+# ENTORNO VIRTUAL (ignora TODAS las carpetas de venv)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ARCHIVOS DE CACHÉ DE PYTHON (basura que genera el intérprete)
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ARCHIVOS DE CONFIGURACIÓN LOCAL (que no deben compartirse)
+.env
+*.env
+.env.local
+.env.*.local
+
+# ARCHIVOS DE IDE (si usas VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ARCHIVOS DE BASE DE DATOS (si tienes SQLite local)
+*.db
+*.sqlite3
+
+# ARCHIVOS DE INSTALACIÓN (no son código)
+*.log
+*.lock
+pip-log.txt
